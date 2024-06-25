@@ -31,7 +31,7 @@ const IssueCredential: React.FC = () => {
       };
 
       // Save the combined data
-      await saveCredential(combinedData);
+      saveCredential(combinedData);
     }
   };
 
